@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&display=swap');
+:root {
+    --headings: #FAED26;
+    --text: #86C232;
+    --background: #222629;
+    --Headings-Font-Familiy: 'Permanent Marker', cursive;
+    --Text-Font-Familiy: 'Bangers', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--background);
+    text-align: center;
+    font-family: var(--Text-Font-Familiy);
+    color: var(--text);
+}
+
+hr{
+    border:solid var(--text) 16px;
+    border-bottom: none;
+    margin: 2rem auto;
+}
+
+h1{
+    margin-top: 2rem;
+    text-decoration: underline;
+    text-align: center;
+    color: var(--headings);
+}
+
+.burger-img {
+    float: left;
+    width: 600px;
+    height: 600px;
+    margin-left: 41rem;
+}
+
+.retsept{
+    overflow: hidden;
+}
+
+.ingredients{
+    width: 50%;
+    text-align: left;
+    margin: 2rem;
+    overflow: hidden;
+    font-size: 3rem;
+}
+
+.copyright{
+    margin-bottom: 2rem;
+}
+
+.copyright a{
+    color: var(--headings);
+}
+
+.Tittle_Process{
+    margin: 1rem;
+    text-align: left;
+}
+
+.Process{
+    margin-left: 55rem;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.li-wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.li-wrapper a{
+    text-decoration: none;
+    color: var(--text);
+}
+
+.Move{
+    margin-left: 4rem;
+}
